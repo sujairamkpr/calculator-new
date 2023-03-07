@@ -1,0 +1,47 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0;
+    background: linear-gradient(to left , cyan,pink);
+}
+.cc-grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+  width:inherit;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+
+   
+
+}
+.prevnum{
+   
+    background-color: blueviolet;
+}
+.result{
+    justify-content: space-around;
+    display: flex;
+    float: left;
+    align-items: center;
+ 
+   
+
+}
+.span2{
+font: 100;
+
+}
+button{
+ 
+   margin-top: 12;
+   margin-bottom: 20;
+}
+.cc-grid button{
+    display: grid;
+ flex-direction: row;
+
+
+  
+}
